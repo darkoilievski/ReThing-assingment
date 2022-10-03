@@ -1,0 +1,31 @@
+.middle-section {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-img {
+  width: 84rem;
+  height: 30rem;
+  border-radius: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .middle-img {
+    width: 55rem;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .middle-img {
+    width: 44rem;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .middle-img {
+    width: 80%;
+    height: 20rem;
+  }
+}

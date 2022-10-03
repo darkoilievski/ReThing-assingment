@@ -1,0 +1,11 @@
+footer {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  footer {
+    font-size: 1.4rem;
+  }
+}

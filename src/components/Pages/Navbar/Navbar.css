@@ -1,0 +1,45 @@
+.navbar {
+  max-width: 96rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: orange;
+  padding: 1rem;
+}
+
+.navbar-btn {
+  width: 10rem;
+  height: 3rem;
+  background-color: red;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    max-width: 66rem;
+  }
+  .navbar-btn {
+    width: 8rem;
+    height: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    max-width: 46rem;
+  }
+  .navbar-btn {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    max-width: 40rem;
+  }
+  .navbar-btn {
+    width: 6rem;
+  }
+}

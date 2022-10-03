@@ -1,0 +1,56 @@
+.secondPage-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.secondPage-image {
+  width: 60rem;
+  height: 30rem;
+  border-radius: 2rem;
+}
+
+.description {
+  width: 50rem;
+}
+
+.input {
+  width: 20rem;
+  height: 3rem;
+  padding: 0.4rem;
+}
+
+@media (max-width: 1000px) {
+  .secondPage-image {
+    width: 40rem;
+  }
+  .description {
+    width: 38rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .secondPage-image {
+    width: 34rem;
+  }
+  .description {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .secondPage-image {
+    width: 28rem;
+    height: 20rem;
+  }
+  .description {
+    width: 26rem;
+  }
+
+  .secondPage-section {
+    font-size: 1.4rem;
+  }
+}
